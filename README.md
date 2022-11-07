@@ -12,6 +12,8 @@
 
 Easy to use Google Maps in your Flask application
 
+**Note:** this is a [fork](https://github.com/flask-extensions/Flask-GoogleMaps).
+
 ## requires
 
 - Jinja
@@ -25,7 +27,7 @@ To contribute with the project, clone it, create a virtualenv and install all of
 ```bash
 git clone https://github.com/flask-extensions/Flask-GoogleMaps.git
 cd Flask-GoogleMaps
-poetry use env 3.8  # just to create virtualenv at the first time
+poetry use env 3.11  # just to create virtualenv at the first time
 poetry shell # activate virtualenv
 poetry install  # to install all for dev
 pre-commit install # to install pre-commit hooks

@@ -35,4 +35,4 @@ tree:
 	@tree  -L 1 -a -I __pycache__ --dirsfirst --noreport
 
 env:
-	@poetry env use 3.8
+	@poetry env use 3.10
