@@ -6,9 +6,10 @@ from json import dumps
 from typing import Optional, Dict, Any, List, Union, Tuple, Text  # noqa: F401
 
 import requests
-from flask import Blueprint, Markup, g, render_template
+from flask import Blueprint, g, render_template
 
 from flask_googlemaps.icons import dots, Icon  # noqa: F401
+from markupsafe import Markup
 
 DEFAULT_ICON = dots.red
 DEFAULT_CLUSTER_IMAGE_PATH = "static/images/m"
